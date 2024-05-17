@@ -10,11 +10,11 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (req: Request, res: Response) => {
-  const a = 10;
+  // const a = 10;
 
-  // res.send('Hello World!')
+  res.send('Hello World!');
 
-  res.send(a);
+  // res.send(a);
 });
 // console.log(process.cwd());
 export default app;
